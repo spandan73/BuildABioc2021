@@ -75,8 +75,8 @@ jobs:
           #
           # DO NOT EDIT THESE ENTRIES HERE. Doing so will 
           # expose your docker username and password on github.
-          username: ${{ secrets.Spandan73 }}
-          password: ${{ secrets.Spooky_2021 }}
+          username: ${{ secrets."DOCKER_USERNAME" }}
+          password: ${{ secrets."DOCKER_PASSWORD"}}
           # Use the environment variable on first few lines to set repo name--just centralizes changes
           repository: ${{ env.repo-name }}
           tag_with_ref: true
