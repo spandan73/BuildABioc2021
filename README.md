@@ -48,6 +48,6 @@ variable instead of plain text to pass along passwords and other secrets in dock
 
 ## Whatcha get
 
-https://seandavi.github.io/BuildABiocWorkshop
+https://Spandan73.github.io/BuildABioc2021
 
-![dockerhub](https://github.com/seandavi/BuildABiocWorkshop/raw/master/inst/images/dockerhub_result.png)
+![dockerhub](https://github.com/spandan73/BuildABioc2021/raw/master/inst/images/dockerhub_result.png)
