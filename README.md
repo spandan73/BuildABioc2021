@@ -25,20 +25,20 @@ For detailed instructions, see the `How to build a workshop` article/vignette.
 ## Results of successful deployment
 
 - A working docker image that contains the installed package and dependencies.
-- An up-to-date `pkgdown` website at https://YOURUSERNAME.github.io/YOURREPOSITORYNAME/
+- An up-to-date `pkgdown` website at https://Spandan73.github.io/BuildABioc2021/
 - Docker image will be tagged with `latest`, `sha-XXXXXX` where `XXXXXX` is the hash of the current `master` commit, and `master`. 
 
 ## To use the resulting image:
 
 ```sh
-docker run -e PASSWORD=<choose_a_password_for_rstudio> -p 8787:8787 YOURDOCKERIMAGENAME
+docker run -e PASSWORD=<choose_a_password_for_rstudio> -p 8787:8787 BuildABioc2021
 ```
-Once running, navigate to https://localhost:8787/ and then login with `rstudio`:`yourchosenpassword`. 
+Once running, navigate to https://localhost:8787/ and then login with `rstudio`:`Spooky_2021`. 
 
 To try with **this** repository docker image:
 
 ```sh
-docker run -e PASSWORD=abc -p 8787:8787 seandavi/buildabiocworkshop2020
+docker run -e PASSWORD=Spooky_2021 -p 8787:8787 spandan73/BuildABioc2021
 ```
 
 *NOTE*: Running docker that uses the password in plain text like above exposes the password to others 
