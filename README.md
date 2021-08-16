@@ -26,7 +26,7 @@ For detailed instructions, see the `How to build a workshop` article/vignette.
 
 - A working docker image that contains the installed package and dependencies.
 - An up-to-date `pkgdown` website at https://Spandan73.github.io/BuildABioc2021/
-- Docker image will be tagged with `latest`, `sha-XXXXXX` where `XXXXXX` is the hash of the current `master` commit, and `master`. 
+- Docker image will be tagged with `latest`, `spa-XXXXXX` where `XXXXXX` is the hash of the current `master` commit, and `master`. 
 
 ## To use the resulting image:
 
